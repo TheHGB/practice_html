@@ -1,0 +1,6 @@
+p { font-size: 20px }
+#special { font-size: 70px }
+.classy { font-size: 5px }
+p[name^=b] { font-size: 60px }
+p[name$=um] { font-size: 12px }
+p[name*=al] { font-size: 2px }
