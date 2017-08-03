@@ -1,0 +1,9 @@
+*{
+margin: 0px;
+}
+article:nth-child(odd){
+background: #999999;
+}
+article:nth-child(even){
+background: #CCCCCC;
+}

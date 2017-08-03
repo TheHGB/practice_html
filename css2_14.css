@@ -1,14 +1,21 @@
-*{
-margin: 0px;
+:not(.numa2){
+	margin: 15px;
 }
 p:nth-child(1){
-background: #999999;
+	background: #999999;
 }
 p:nth-child(2){
-background: #CCCCCC;
+	background: #CCCCCC;
 }
 p:nth-child(3){
-background: #999999;
+	background: #999999;
 }
 p:nth-child(4){
-background: #CCCCCC
+	background: #CCCCCC
+}
+span:nth-child(odd){
+	background:#999999;
+}
+span:nth-child(even){
+	background:#CCCCCC;
+}
