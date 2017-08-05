@@ -9,8 +9,15 @@ body {
 	text-align: center;
 	border: 1px solid #999999;
 	background: #DDDDDD;
-	border-radius: 20px;
+	border-radius: 20px
+	/*border-radius: 20px 10px 30px 50px;
+	border-radius: 20px / 10px;*/
 }
 #title {
-	font: bold 36px verdana, sans-serif;
+	font: bold 36px classy, verdana, sans-serif;
+	text-shadow: rgb(0,0,150) 3px 3px 5px;
+}
+@font-face {
+	font-family: 'classy';
+	src: url(classy.ttf);
 }
