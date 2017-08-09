@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Title</title>
+	<script>
+		function showalert(){
+			alert('Click');
+		}
+		function toclick(){
+			var element = document.getElementsByTagName('p')[0];
+			element.addEventListener('click',showalert,false);
+		}
+		window.addEventListener('load',toclick,false);
+	</script>
+</head>
+<body>
+	<div id=”main">
+		<p> Click</p>
+		<p>No Click</p>
+	</div>
+</body>
+</html>
