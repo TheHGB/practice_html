@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+		<script>
+			function start(){
+				name1=document.getElementById("name");
+				name2=document.getElementById("surname");
+				name1.addEventListener("input", validation, false);
+				name2.addEventListener("input", validation, false);
+				validation();
+			}
+			function validation(){
+				if(name1.value=='' && name2.value==''){
+					name1.setCustomValidity('Insert at least one name');
+					name1.style.background='#FFDDDD';
+				}else{
+					name1.setCustomValidity('');
+					name1.style.background='#FFFFFF';
+				}
+			}
+		window.addEventListener("load", start, false);
+		</script>
+</head>
+<body>
+	<section>
+		<form name="registration" method="get">
+			Name:
+			<input type="text" name="name" id="name">
+			Surname:
+			<input type="text" name="surname" id="surname">
+			<input type="submit" id="send" value="register">
+		</form>
+	</section>
+</body>
+</html>

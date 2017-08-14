@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>New atributes</title>
+</head>
+<body>
+	<section>
+		<form name="myform" id="myform" method="get">
+			<input type="search" name="search" id="search" placeholder="search here">
+			<input type="email" name="email" id="email" required>
+			<input type="email" name="memail" id="memail" multiple>
+			<input type="search" name="asearch" id="asearch" autofocus>
+			<input pattern="[0-9]{5}" name="postalcode" id="postalcode" title="Write here the 5 numbers of your postal code">
+			<input type="submit" value="submit">
+			<datalist id="information">
+				<option value=”123123123” label="Phone 1">
+				<option value=”456456456” label="Phone 2">
+			</datalist>
+			<input type="tel" name="phone" id="phone" list="information">
+		</form>
+	</section>
+	<nav>
+		<input type="search" name="search" id="search" form="form">
+	</nav>
+</body>
+</html>
+
+
