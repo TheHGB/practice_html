@@ -1,0 +1,15 @@
+#dropbox{
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin: 10px;
+}
+#imagebox{
+	float: left;
+	width: 320px;
+	margin: 10px;
+}
+#imagebox > img{
+	float: left;
+	padding: 5px;
+}
