@@ -8,7 +8,7 @@ function obtain(){
 		timeout:10000,
 		maximumAge:100000,
 	};
-	navigator.geolocation.getCurrentPosition(show,errors,geoconfig);
+	control=navigator.geolocation.watchPosition(show,errors,geoconfig);
 }
 function show(position){
 	var ubication=document.getElementById('ubication');
